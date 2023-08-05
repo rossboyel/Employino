@@ -7,6 +7,9 @@ import jakarta.persistence.Id;
 
 import java.sql.Date;
 
+/**
+ * Represents an employee in the system. Is used to generate an employee entity in the MySQL database
+ */
 @Entity
 public class Employee {
     @Id
