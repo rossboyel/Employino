@@ -24,4 +24,10 @@ public class EmployeeService {
     public Employee saveEmployee(Employee employee) {
         return employeeRepository.save(employee);
     }
+
+    public void deleteEmployee(Integer id) {
+        System.out.println(id + " is deleted from DB");
+        employeeRepository.deleteById(id);
+    }
+
 }
