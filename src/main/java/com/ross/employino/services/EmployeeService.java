@@ -26,7 +26,7 @@ public class EmployeeService {
     }
 
     public void deleteEmployee(Integer id) {
-        System.out.println(id + " is deleted from DB");
+        System.out.println("employee ID: " + id + " is deleted from DB");
         employeeRepository.deleteById(id);
     }
 
